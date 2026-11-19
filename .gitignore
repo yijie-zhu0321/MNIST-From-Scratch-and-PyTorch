@@ -1,0 +1,19 @@
+# Downloaded MNIST datasets (download on each machine)
+**/data/
+
+# Python and Jupyter caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local environments and OS files
+.venv/
+venv/
+.DS_Store
+.env
+
+# Do not ignore .npz or .pth: small, user-trained checkpoints may be shared intentionally.
+
+# Local debugging logs
+mnist_debug.log
